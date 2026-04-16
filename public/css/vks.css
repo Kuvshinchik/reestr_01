@@ -1,0 +1,131 @@
+#spisok {
+	width:100%;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+#spisok  th{
+	background: #e0e0e0;
+	padding:10px 0;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+#spisok  td{
+	padding:10px 10px;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.center {
+	text-align: center;
+}
+/*.gray {
+	background: ;
+} */
+#add_vks {
+	display: inline-block;
+	width:500px !important;
+}
+#add_vks td {
+	padding:4px 10px;
+}
+#add_vks input {
+	width:400px;
+	padding:2px 5px;
+	font-size: 100%;
+}
+#addvks_tablezanvks {
+	color: red;
+}
+#addvks_tablezanvks table {
+	width:97%;
+	text-align: center;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+#addvks_tablezanvks table th{
+	background: #e0e0e0;
+	padding:2px 0;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+
+}
+#addvks_tablezanvks table td{
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+
+}
+#add_vks textarea {
+	width:400px;
+	rows:20;
+	resize: none
+}
+#view_vks  {
+	width:100%;
+	text-align:center;
+}
+#view_vks  table {
+	display:inline-block;
+	text-align: center;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+#view_vks table td.text{
+	width:300px;
+	text-align: left;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.block_check {
+	width: 200px;
+	float: left;
+}
+.check {
+width:20px !important;
+}
+
+#view_vks table td{
+	padding:4px 10px;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.title_vks {
+	width:120px;
+	font-size:16px;
+}
+.file {
+
+margin-bottom:6px;}
+/* Зелёный фон строк списка (не трогаем шапку таблицы) */
+table#spisok tbody tr td { background: #dfffe0; }
+table#spisok tbody tr:nth-child(even) td { background: #cff5cf; }
+
+/* Если в разметке нет <tbody>, можно так (на крайний случай): */
+/* table#spisok tr:not(:first-child) td { background:#dfffe0; }
+   table#spisok tr:nth-child(even) td { background:#cff5cf; } */
+
+/* Красная кнопка «Удалить» в стиле остальных кнопок */
+.button.danger, .btn.danger {
+  background: #e53935;
+  color: #fff !important;
+  border: 1px solid #c62828;
+  cursor: pointer;
+}
+.button.danger:hover, .btn.danger:hover { filter: brightness(0.95); }
+.button.danger:active, .btn.danger:active { transform: translateY(1px); }
+
+/* Зелёный фон строк списка */
+table#spisok tbody tr td { background:#dfffe0; }
+table#spisok tbody tr:nth-child(even) td { background:#cff5cf; }
+
+/* Красная кнопка удаления в стиле остальных кнопок */
+.button.danger, .btn.danger {
+  background:#e53935;
+  color:#fff !important;
+  border:1px solid #c62828;
+  cursor:pointer;
+}
+.button.danger:hover, .btn.danger:hover { filter:brightness(0.95); }
+.button.danger:active, .btn.danger:active { transform:translateY(1px); }
+
+
+.filterbar a { margin-right: 8px; }
+.filterbar strong { margin-right: 6px; }
