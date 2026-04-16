@@ -2,6 +2,17 @@
 @php $pageTitle = 'Список заявок ВКС'; @endphp
 
 @section('vks_content')
+<style>
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+</style>
 <div id="menu">
     <ul>
         <li><a class="button" href="{{ route('vksnew2.index') }}">Главная</a></li>
